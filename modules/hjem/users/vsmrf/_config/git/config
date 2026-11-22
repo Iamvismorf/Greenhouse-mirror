@@ -4,4 +4,6 @@
 [init]
    defaultBranch = main
 [log]
-	date = rfc
+   date = format:%a, %d %b %Y %H:%M:%S
+[pretty]
+   less = format:%C(auto)%h%Creset %an  %ad %C(auto)%(decorate:prefix=|,suffix=|)%Creset %s
