@@ -1,5 +1,7 @@
 [user]
-name          = vismorf
-email         = 96656664+Iamvismorf@users.noreply.github.com. 
+   name          = vismorf
+   email         = 96656664+Iamvismorf@users.noreply.github.com. 
 [init]
-defaultBranch = main
+   defaultBranch = main
+[log]
+	date = rfc
