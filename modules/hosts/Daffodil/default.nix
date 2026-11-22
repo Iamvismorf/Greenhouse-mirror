@@ -3,6 +3,8 @@
 in {
   modules.hosts.${hostname} = {
     imports = [
+      self.modules.nixos.misc_steam
+
       self.modules.nixos.trash
       self.modules.nixos.audio
       self.modules.nixos.bluetooth
