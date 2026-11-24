@@ -15,7 +15,6 @@ let
     readDir
     ;
 
-  #todo: mid implementation. Should explicitly lowercase the first letter
   toCamelCase = basename:
     splitString "." basename
     |> foldl' (acc: elem:

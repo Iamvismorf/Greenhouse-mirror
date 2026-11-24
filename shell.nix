@@ -1,4 +1,3 @@
-#todo: add formaters for config langs
 let
   sources = import ./+npins;
   pkgs = import sources.nixpkgs {};
@@ -13,7 +12,6 @@ in
       #config file formatters
       pkgs.alejandra #nix
       pkgs.taplo #toml
-      pkgs.yq #yaml and json
 
       pkgs.ssh-to-age
       pkgs.sops

@@ -47,7 +47,7 @@ in {
         "swappy/config".source = swappy.config;
         "bottom".source = bottom null;
       };
-      packages = import ./_packages.nix {inherit config inputs pkgs;}; #todo: solve this params passing
+      packages = import ./_packages.nix {inherit config inputs pkgs;};
     };
   };
 }
